@@ -1,0 +1,152 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\renewcommand{\contentsname}{Sommaire}
+\begin{document}
+
+\title{\vspace*{\fill}La sécurité autour des paiements de systèmes bancaires}
+
+\maketitle
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\begin{center}
+\author{Sharaf GABEL} 
+\end{center}
+
+\bigskip
+\begin{center}
+Master 2 MIAGE-Université Paris Ouest Nanterre La Défense
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+\section{Introduction}
+\bigskip
+L’échange de devises, de monnaies, est un des élément central du fonctionnement de notre société. L’innovation technologique a permis l'émergence de nouvelles formes de monnaies, et de nouveaux moyens de paiement. Nous pouvons désormais payer avec une carte bancaire. Différentes fonctionnalités ont vu le jour afin de pouvoir réaliser des paiements. Les paiements sans contact par carte bancaire par exemple, ou encore le paiement mobile.
+
+\paragraph{}
+Prenons le cas du paiement mobile utilisant le système NFC. Expliquons tout d’abord comment va fonctionner NFC. Ici le téléphone devra possèder l’application de sa banque installée sur son téléphone, et vous devrez être logué dessus. Le téléphone va dès alors, pouvoir se transformer en ce que l’on pourrait appeler une carte bancaire électronique virtuelle. Lorsque vous voudrez payer, vous activerez le système NFC, qui vous permettra de payer sans contact en passant seulement votre téléphone au dessus d’un terminal de paiement, le paiement sera effectif. Ils existent donc énormément de moyens, de système de paiements, l’introduction de nouveaux moyens de paiements peut être fait pour deux raisons : 
+
+\begin{itemize}
+\item Faciliter le confort utilisateur, le paiement.
+\item Palier à des problèmes de sécurités, on parle d'évolution sécuritaire.
+\end{itemize}
+
+\paragraph{}
+Dans mon mémoire, je vais en particulier m’intéresser à la seconde partie, en l'occurence la sécurité de ces différents systèmes de paiements. En reprenant l’exemple étudié ci-dessus (sur le paiement à l’aide d’un système basé sur NFC), nous pouvons nous demander si utiliser les ondes pour transférer des données est réellement sécurisé. En effet, il est possible d'obtenir les données qui transitent, en utilisant une attaque qui aurait pour principe "d’écouter" sur un canal, comme l’on pourrait le faire avec un réseau Wi-fi. Ainsi, on pourrait récupérer certaines informations transmises lors du paiement par NFC, et donc récupérer des données sensibles. NFC pourrait possèder des failles qui pourrait donner accès aux données envoyées, ou même aux données présentes sur le téléphone.
+
+\paragraph{}
+Beaucoup d’autres systèmes de paiement existent, ils n'ont pas tous le même niveau de sécurité.
+\paragraph{\underline{Problèmatiques :}}
+Quelles sont les systèmes les plus sécurisés ? Quelles sont les différentes failles des systèmes ?  Quelles sont les différentes attaques pouvant être réalisées ?
+
+\paragraph{}
+Mon papier présentera dans un premier temps, brièvement, les différents systèmes de paiements existants, puis arbordera les différents problèmes sécuritaires et les différentes attaques pouvant être réalisées en se basant sur des cas d'étude concret, et enfin finira avec ma contribution (avis,opinions,proposition) sur ce sujet.
+
+
+\newpage
+\section{Lectures}
+\begin{itemize}
+
+
+\bigskip
+\item
+\href{NFC sécurisé ?
+}{http://www.silicon.fr/le-paiement-mobile-nfc-securise-vraiment-104017.html
+}
+
+\item
+\href{https://threatpost.com/vulnerabilities-identified-in-ny-banking-vendors/112209/
+}{https://threatpost.com/vulnerabilities-identified-in-ny-banking-vendors/112209/
+}
+
+
+\bigskip
+\item
+\href{http://www.darkreading.com/operations/bbva-cisos-give-tips-for-securing-digital-bank/d/d-id/1320091
+}{http://www.darkreading.com/operations/bbva-cisos-give-tips-for-securing-digital-bank/d/d-id/1320091
+}
+
+\bigskip
+\item
+\href{http://www.darkreading.com/operations/bbva-cisos-give-tips-for-securing-digital-bank/d/d-id/1320091
+}{http://www.darkreading.com/operations/bbva-cisos-give-tips-for-securing-digital-bank/d/d-id/1320091
+}
+
+\bigskip
+\item
+\href{http://www.darkreading.com/vulnerabilities---threats/bank-botnets-continue-to-thrive-one-year-after-gameover-zeus-takedown/d/d-id/1320099
+}{http://www.darkreading.com/vulnerabilities---threats/bank-botnets-continue-to-thrive-one-year-after-gameover-zeus-takedown/d/d-id/1320099
+}
+
+\bigskip
+\item
+\href{http://www.darkreading.com/vulnerabilities---threats/cybersecurity-dont-bank-on-it-with-3rd-parties/a/d-id/1320132
+}{http://www.darkreading.com/vulnerabilities---threats/cybersecurity-dont-bank-on-it-with-3rd-parties/a/d-id/1320132
+}
+
+\bigskip
+\item
+\href{http://www.darkreading.com/vulnerabilities---threats/cybersecurity-dont-bank-on-it-with-3rd-parties/a/d-id/1320132
+}{http://www.darkreading.com/vulnerabilities---threats/cybersecurity-dont-bank-on-it-with-3rd-parties/a/d-id/1320132
+}
+
+\bigskip
+\item
+\href{http://krebsonsecurity.com/2015/09/more-atm-insert-skimmer-innovations/
+}{http://krebsonsecurity.com/2015/09/more-atm-insert-skimmer-innovations/
+}
+
+\bigskip
+\item
+\href{http://consumerist.com/2015/11/23/man-uses-lifelock-to-track-ex-wife-company-didnt-care/
+}{http://consumerist.com/2015/11/23/man-uses-lifelock-to-track-ex-wife-company-didnt-care/
+}
+
+\bigskip
+\item
+\href{http://krebsonsecurity.com/2015/12/opm-breach-credit-monitoring-vs-freeze/
+}{http://krebsonsecurity.com/2015/12/opm-breach-credit-monitoring-vs-freeze/
+}
+
+\bigskip
+\item
+\href{http://krebsonsecurity.com/2015/12/when-undercover-credit-card-buys-go-bad/
+}{http://krebsonsecurity.com/2015/12/when-undercover-credit-card-buys-go-bad/
+}
+
+\bigskip
+\item
+\href{https://threatpost.com/new-banking-trojan-targets-android-steals-sms/110819/
+}{https://threatpost.com/new-banking-trojan-targets-android-steals-sms/110819/
+}
+
+\end{itemize}
+
+\newpage
+\section{Book de thèmes étudiés}
+\begin{itemize}
+\item Attaque sur des cartes à puce
+\item Yescard
+\item Trans mobile 
+\item RFID carte bancaire
+\item Attaque via NFC
+\end{itemize}
+
+\end{document}
